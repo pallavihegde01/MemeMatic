@@ -73,23 +73,23 @@ const Content = () => {
       </div>
 
       <div className="flex justify-center mt-6 relative">
-        <div className="relative">
-          <img
-            src={meme.imgUrl}
-            alt="meme"
-            className="w-full max-w-md mx-auto rounded-md"
-          />
+        <img
+          src={meme.imgUrl}
+          alt="meme"
+          className="w-full max-w-[85%] md:max-w-[75%] mx-auto rounded-md"
+        />
 
+        <div className="absolute inset-0 flex flex-col justify-between items-center pointer-events-none">
           <p
-            className="absolute top-5 left-1/2 transform -translate-x-1/2 
-                      text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase bg-black/50 px-4 py-2 rounded-md"
+            className="mt-5 text-2xl sm:text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase 
+                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[75%] break-words"
           >
             {meme.topText}
           </p>
 
           <p
-            className="absolute bottom-5 left-1/2 transform -translate-x-1/2 
-                      text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase bg-black/50 px-4 py-2 rounded-md"
+            className="mb-5 text-2xl sm:text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase 
+                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[75%] break-words"
           >
             {meme.bottomText}
           </p>
