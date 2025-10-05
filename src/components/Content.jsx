@@ -76,20 +76,20 @@ const Content = () => {
         <img
           src={meme.imgUrl}
           alt="meme"
-          className="w-full max-w-[85%] md:max-w-[75%] mx-auto rounded-md"
+          className="w-full max-w-[85%] md:max-w-[50%] mx-auto rounded-md"
         />
 
         <div className="absolute inset-0 flex flex-col justify-between items-center pointer-events-none">
           <p
             className="mt-5 text-2xl sm:text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase 
-                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[75%] break-words"
+                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[50%] break-words"
           >
             {meme.topText}
           </p>
 
           <p
             className="mb-5 text-2xl sm:text-4xl md:text-7xl font-bold text-white drop-shadow-lg uppercase 
-                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[75%] break-words"
+                      bg-black/50 px-4 py-2 rounded-md text-center max-w-[85%] md:max-w-[50%] break-words"
           >
             {meme.bottomText}
           </p>
